@@ -2,7 +2,7 @@
 <resources>
 
     <declare-styleable name="BlurImageView">
-        <attr name="radius" format="integer" />
+        <attr name="blur_radius" format="integer" />
     </declare-styleable>
 
 </resources>
