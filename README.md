@@ -18,7 +18,8 @@ allprojects {
 **Step 2.** Add the dependency
 ```gradle
 dependencies {
-		compile 'com.github.jgabrielfreitas:BlurImageView:1.0.1'
+		implementation 'com.github.hamzaahmedkhan:BlurImageView:v1.0.2'
+
 	}
 ```
 
