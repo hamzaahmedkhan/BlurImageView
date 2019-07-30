@@ -61,7 +61,7 @@ public class BlurImageView extends AppCompatImageView {
 
             TypedArray typedArray = getContext().getTheme().obtainStyledAttributes(attrs, R.styleable.BlurImageView, 0, 0);
 
-            Integer radius = typedArray.getInteger(R.styleable.BlurImageView_radius, 0);
+            Integer radius = typedArray.getInteger(R.styleable.BlurImageView_blur_radius, 0);
 
             setBlur(radius);
 
